@@ -8,10 +8,7 @@ public class Main {
 
         Book book2 = new Book("Изучаем JAVA", author2, 2003);
 
-        System.out.println(author1);
-        System.out.println(book1);
-        System.out.println(author2);
-        System.out.println(book2);
+        System.out.println(author1.equals(author2));
 
     }
 }
